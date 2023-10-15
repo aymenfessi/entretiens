@@ -53,8 +53,9 @@
    
    # Fermeture du navigateur
    driver.quit()
-
 ````
+
+
 
 Ce script ouvre un navigateur, effectue une recherche, vérifie le titre de la page et ferme le navigateur.
 
