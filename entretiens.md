@@ -156,6 +156,8 @@ if __name__ == '__main__':
 
 
 Exemple de ciblage des objet
+
+
 ```` Python
 # Recherche par Tag Name
 search_box_by_tag = driver.find_element_by_tag_name("input")
