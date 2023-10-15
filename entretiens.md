@@ -146,13 +146,12 @@ if __name__ == '__main__':
     unittest.main()
 
 
-'''
-
+````
 
 
 
 Exemple de ciblage des objet
-'''Python
+''' Python
 # Recherche par Tag Name
 search_box_by_tag = driver.find_element_by_tag_name("input")
 
