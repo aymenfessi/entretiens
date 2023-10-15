@@ -59,6 +59,29 @@ Réponse : Selenium est un outil d'automatisation des tests pour les application
 
 Réponse : Pour écrire des scripts Selenium maintenables, j'utilise des bonnes pratiques telles que l'utilisation de l'attente explicite, la mise en place de l'architecture Page Object, et la gestion des sélecteurs d'éléments de manière efficace. Cela rend les scripts plus robustes et faciles à entretenir lorsque l'application évolue.
 
+## Architecture Page Object Model (POM)
+
+L'architecture Page Object Model (POM) est un modèle de conception couramment utilisé dans l'automatisation des tests logiciels, en particulier pour les tests d'applications web. Son principal objectif est de rendre les scripts de test plus modulaires, maintenables et réutilisables.
+
+### Composants clés de l'architecture POM :
+
+1. **Page Object :** Une page object représente une page ou une partie spécifique d'une application web. Chaque page ou composant d'une page (comme un formulaire) a sa propre classe Page Object. Cette classe contient des éléments de l'interface utilisateur (boutons, champs de texte, liens, etc.) et des méthodes pour interagir avec ces éléments.
+
+2. **Méthodes d'action :** Les méthodes dans la classe Page Object sont utilisées pour effectuer des actions sur les éléments de l'interface utilisateur, telles que la saisie de données dans un champ de texte, la sélection d'une option dans une liste déroulante, le clic sur un bouton, etc. Chaque méthode est spécifiquement associée à une action sur la page.
+
+3. **Méthodes de vérification :** Les méthodes de vérification dans la classe Page Object sont utilisées pour vérifier l'état des éléments de l'interface utilisateur ou pour valider que les actions ont produit les résultats attendus. Par exemple, vous pourriez avoir des méthodes pour vérifier si un élément est visible, si un texte est affiché, etc.
+
+4. **Isolation :** Une des caractéristiques clés de POM est l'isolation. Chaque Page Object est indépendant des autres. Cela signifie que si une page change, seuls les Page Objects associés à cette page nécessitent des modifications, ce qui facilite la maintenance.
+
+5. **Réutilisation :** Les Page Objects sont conçus pour être réutilisables. Vous pouvez les utiliser dans différents tests sans avoir à réécrire le même code pour interagir avec les éléments de l'interface utilisateur.
+
+6. **Tests :** Dans les scripts de test, les développeurs ou les testeurs utilisent les Page Objects pour interagir avec l'interface utilisateur. Au lieu d'écrire du code directement pour localiser des éléments sur une page, les scripts de test appellent les méthodes des Page Objects pour effectuer des actions ou vérifications.
+
+L'architecture Page Object Model améliore la maintenabilité des scripts de test, car si l'interface utilisateur change, vous n'avez qu'à mettre à jour le Page Object associé, au lieu de modifier de nombreux scripts de test. Elle rend également les tests plus lisibles et réduit la duplication de code.
+
+POM est souvent utilisé avec des frameworks d'automatisation de tests, tels que Selenium pour les tests web, pour structurer et organiser les scripts de test de manière efficace.
+
+
 # Questions d'entretien sur Appium (pour les tests mobiles)
 
 ## Qu'est-ce qu'Appium et comment l'avez-vous utilisé pour les tests mobiles?
