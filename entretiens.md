@@ -145,3 +145,38 @@ class SeleniumTest(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 
+
+
+
+
+
+
+Exemple de ciblage des objet
+'''Python
+# Recherche par Tag Name
+search_box_by_tag = driver.find_element_by_tag_name("input")
+
+# Recherche par ID
+search_box_by_id = driver.find_element_by_id("search-bar")
+
+# Recherche par Name
+search_box_by_name = driver.find_element_by_name("q")
+
+# Recherche par Classe CSS
+search_box_by_class = driver.find_element_by_class_name("search-input")
+
+# Recherche par XPath
+search_box_by_xpath = driver.find_element_by_xpath("//input[@name='q']")
+
+# Recherche par CSS Selector
+search_box_by_css_selector = driver.find_element_by_css_selector("input[name='q']")
+
+# Recherche par Lien Textuel
+link_by_text = driver.find_element_by_link_text("Cliquez ici")
+
+# Recherche par Lien Partiel
+link_by_partial_text = driver.find_element_by_partial_link_text("Cliquez")
+
+# Recherche par Classe Partielle
+element_by_partial_class = driver.find_element_by_css_selector("[class*='partial-class']")
+
