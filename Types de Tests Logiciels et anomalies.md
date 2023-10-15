@@ -1,3 +1,68 @@
+**Mots clés de Tests Logiciels**
+
+1. **Test Case (Cas de Test)** : Un ensemble d'instructions spécifiques pour vérifier le comportement ou la fonctionnalité d'une application.
+
+2. **Test Suite (Suite de Tests)** : Un groupe de cas de test connexes regroupés pour être exécutés ensemble.
+
+3. **Test Plan (Plan de Test)** : Un document qui décrit la portée, l'approche, les objectifs et les ressources pour une série de tests.
+
+4. **Test Scenario (Scénario de Test)** : Un ensemble d'actions et d'événements qui décrivent un processus de test.
+
+5. **Test Data (Données de Test)** : Les données d'entrée ou de configuration utilisées pour exécuter un cas de test.
+
+6. **Test Environment (Environnement de Test)** : La configuration matérielle et logicielle dans laquelle les tests sont exécutés.
+
+7. **Test Execution (Exécution de Test)** : Le processus d'exécution des cas de test dans un environnement de test.
+
+8. **Regression Testing (Tests de Régression)** : Les tests effectués pour s'assurer que les modifications récentes dans le code n'ont pas affecté les fonctionnalités existantes.
+
+9. **Unit Testing (Tests Unitaires)** : Les tests effectués au niveau des composants individuels (par exemple, des fonctions ou des méthodes) pour garantir leur bon fonctionnement.
+
+10. **Integration Testing (Tests d'Intégration)** : Les tests effectués pour vérifier l'interaction entre les différents composants d'une application.
+
+11. **Functional Testing (Tests Fonctionnels)** : Les tests qui vérifient si une application fonctionne conformément aux spécifications fonctionnelles.
+
+12. **Performance Testing (Tests de Performance)** : Les tests qui évaluent les performances de l'application, notamment la vitesse, la charge et la scalabilité.
+
+13. **Load Testing (Tests de Charge)** : Les tests effectués pour évaluer la réaction de l'application sous des charges élevées.
+
+14. **Smoke Testing (Tests de Fumée)** : Les tests initiaux rapides pour vérifier si une nouvelle version de l'application est suffisamment stable pour des tests plus approfondis.
+
+15. **Boundary Testing (Tests de Limites)** : Les tests qui évaluent le comportement de l'application aux limites de ses valeurs d'entrée.
+
+16. **White Box Testing (Tests en Boîte Blanche)** : Les tests basés sur la connaissance interne du code source, où les testeurs ont accès au code.
+
+17. **Black Box Testing (Tests en Boîte Noire)** : Les tests qui ne tiennent pas compte de la structure interne du code et se concentrent sur le comportement de l'application.
+
+18. **Defect (Anomalie)** : Une non-conformité ou un problème identifié dans l'application.
+
+19. **Test Automation (Automatisation des Tests)** : L'utilisation d'outils et de scripts pour exécuter des tests de manière automatique.
+
+20. **Test Harness (Harnais de Test)** : Un ensemble d'outils et de composants utilisés pour automatiser et exécuter des tests.
+
+21. **Code Coverage (Couverture de Code)** : Une mesure de la quantité de code source testé par rapport à la quantité totale de code.
+
+22. **Test Report (Rapport de Test)** : Un document qui résume les résultats des tests, les anomalies identifiées et les étapes à suivre.
+
+23. **Test Strategy (Stratégie de Test)** : Un document qui décrit l'approche globale pour les tests, y compris les ressources et les délais.
+
+24. **Ad-Hoc Testing (Tests Ad-Hoc)** : Les tests non structurés effectués sans documentation ou plan préalable.
+
+25. **Exploratory Testing (Tests Exploratoires)** : Les tests basés sur l'exploration, où les testeurs découvrent et testent l'application en même temps.
+
+26. **Usability Testing (Tests d'Utilisabilité)** : Les tests qui évaluent l'expérience utilisateur et l'ergonomie de l'application.
+
+27. **Accessibility Testing (Tests d'Accessibilité)** : Les tests qui vérifient si l'application est utilisable par des personnes ayant des besoins spéciaux.
+
+28. **Cross-Browser Testing (Tests Multi-Navigateurs)** : Les tests pour s'assurer que l'application fonctionne correctement sur différents navigateurs web.
+
+29. **Security Testing (Tests de Sécurité)** : Les tests visant à identifier et à corriger les vulnérabilités de sécurité de l'application.
+
+30. **User Acceptance Testing (Tests de Validation Utilisateur)** : Les tests effectués par les utilisateurs finaux pour valider que l'application répond à leurs besoins.
+
+
+
+
 **Types de Tests Logiciels**
 
 1. **Tests Fonctionnels :**
