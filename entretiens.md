@@ -37,3 +37,37 @@ Je crois en la formation continue et en la veille technologique. Je participe r�
 J'ai rencontré des conflits au cours de ma carrière, mais je crois en une approche de résolution constructive. Dans un cas particulier, il y avait un désaccord sur la couverture des tests entre l'équipe de développement et l'équipe de tests. J'ai organisé une réunion pour discuter ouvertement des préoccupations, écouter les opinions de chacun et trouver un terrain d'entente. En fin de compte, nous avons ajusté la stratégie de tests pour répondre aux préoccupations de toutes les parties, tout en maintenant notre objectif de garantir la qualité du produit.
 
 N'oubliez pas d'adapter ces réponses en fonction de votre propre expérience et de les personnaliser en fonction des besoins spécifiques de l'entreprise pour laquelle vous postulez.
+
+
+# Questions d'entretien sur le processus de tests
+
+## Pouvez-vous expliquer le processus de tests que vous suivez pour assurer la qualité d'un logiciel?
+
+Réponse : Je commence par la planification des tests, où j'identifie les exigences, établis un plan de tests, et conçois les cas de test. Ensuite, je passe à l'exécution des tests, où je mets en œuvre les cas de test manuels et automatisés. Les anomalies sont documentées, suivies et résolues dans la phase de gestion des anomalies. Enfin, je rédige des rapports de tests pour communiquer les résultats et assure la rétroaction et l'amélioration continue.
+
+## Comment gérez-vous la traçabilité entre les exigences et les cas de test?
+
+Réponse : Pour maintenir la traçabilité, j'utilise des outils de gestion de tests pour lier les cas de test aux exigences. Cela me permet de suivre quels cas de test couvrent chaque exigence et de garantir que rien n'est laissé de côté. Je m'assure également que les cas de test sont numérotés ou étiquetés de manière à refléter les exigences correspondantes.
+
+# Questions d'entretien sur Selenium
+
+## Pouvez-vous expliquer ce qu'est Selenium et comment vous l'avez utilisé dans vos projets?
+
+Réponse : Selenium est un outil d'automatisation des tests pour les applications web. J'ai utilisé Selenium pour automatiser des tests de régression, de compatibilité multi-navigateurs et d'acceptation sur des applications web. J'ai écrit des scripts en utilisant des langages de programmation tels que Java ou Python pour contrôler les actions des navigateurs et vérifier le comportement des applications.
+
+## Quelles sont les meilleures pratiques que vous suivez pour écrire des scripts Selenium maintenables et évolutifs?
+
+Réponse : Pour écrire des scripts Selenium maintenables, j'utilise des bonnes pratiques telles que l'utilisation de l'attente explicite, la mise en place de l'architecture Page Object, et la gestion des sélecteurs d'éléments de manière efficace. Cela rend les scripts plus robustes et faciles à entretenir lorsque l'application évolue.
+
+# Questions d'entretien sur Appium (pour les tests mobiles)
+
+## Qu'est-ce qu'Appium et comment l'avez-vous utilisé pour les tests mobiles?
+
+Réponse : Appium est un framework d'automatisation de tests pour les applications mobiles Android et iOS. J'ai utilisé Appium pour automatiser des tests d'interface utilisateur sur des applications mobiles. J'ai écrit des scripts en utilisant des langages de programmation compatibles avec Appium, comme Java, pour interagir avec les éléments d'interface utilisateur et vérifier le comportement des applications mobiles.
+
+## Comment gérez-vous la configuration des appareils mobiles pour les tests avec Appium?
+
+Réponse : Pour la configuration des appareils mobiles, j'utilise Appium Server et des profils de configuration adaptés à chaque appareil cible. Je veille à ce que les appareils soient connectés, configurés pour le débogage USB, et que les applications soient installées. Je crée ensuite des scripts de test compatibles avec les profils de configuration spécifiques pour les exécutions.
+
+
+
