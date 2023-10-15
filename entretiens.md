@@ -99,8 +99,9 @@ import logging
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.keys import Key
 
+```python
 class SeleniumTest(unittest.TestCase):
     def setUp(self):
         # Initialisation du fichier de logs
@@ -127,7 +128,7 @@ class SeleniumTest(unittest.TestCase):
         except AssertionError as e:
             # En cas d'échec, enregistrez un message d'erreur dans les logs
             logging.error("Le test Selenium a échoué : " + str(e))
-
+```python
     def tearDown(self):
         # Générez un rapport PDF avec les résultats du test
         c = canvas.Canvas("selenium_test_report.pdf", pagesize=letter)
