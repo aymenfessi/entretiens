@@ -93,7 +93,7 @@ Réponse : Appium est un framework d'automatisation de tests pour les applicatio
 Réponse : Pour la configuration des appareils mobiles, j'utilise Appium Server et des profils de configuration adaptés à chaque appareil cible. Je veille à ce que les appareils soient connectés, configurés pour le débogage USB, et que les applications soient installées. Je crée ensuite des scripts de test compatibles avec les profils de configuration spécifiques pour les exécutions.
 
 
-'''Python 
+```python
 import unittest
 import logging
 from reportlab.lib.pagesizes import letter
@@ -144,4 +144,3 @@ class SeleniumTest(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 
-'''
