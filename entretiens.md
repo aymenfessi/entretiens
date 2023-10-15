@@ -156,7 +156,7 @@ if __name__ == '__main__':
 
 
 Exemple de ciblage des objet
-''' Python
+```` Python
 # Recherche par Tag Name
 search_box_by_tag = driver.find_element_by_tag_name("input")
 
@@ -184,3 +184,4 @@ link_by_partial_text = driver.find_element_by_partial_link_text("Cliquez")
 # Recherche par Classe Partielle
 element_by_partial_class = driver.find_element_by_css_selector("[class*='partial-class']")
 
+````
