@@ -93,4 +93,55 @@ Réponse : Appium est un framework d'automatisation de tests pour les applicatio
 Réponse : Pour la configuration des appareils mobiles, j'utilise Appium Server et des profils de configuration adaptés à chaque appareil cible. Je veille à ce que les appareils soient connectés, configurés pour le débogage USB, et que les applications soient installées. Je crée ensuite des scripts de test compatibles avec les profils de configuration spécifiques pour les exécutions.
 
 
+'''Python 
+import unittest
+import logging
+from reportlab.lib.pagesizes import letter
+from reportlab.pdfgen import canvas
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
 
+class SeleniumTest(unittest.TestCase):
+    def setUp(self):
+        # Initialisation du fichier de logs
+        logging.basicConfig(filename='selenium_test.log', level=logging.INFO)
+
+        # Initialisation du navigateur Selenium (dans cet exemple, nous utilisons Chrome)
+        self.driver = webdriver.Chrome()
+
+    def test_example(self):
+        try:
+            # Ouvrir une page web
+            self.driver.get("https://www.exemple.com")
+
+            # Effectuer une action, par exemple, remplir un champ de recherche
+            search_box = self.driver.find_element_by_name("q")
+            search_box.send_keys("Exemple de recherche")
+            search_box.send_keys(Keys.RETURN)
+
+            # Effectuez des assertions ici (par exemple, vérifiez si le résultat de la recherche est correct)
+
+            # Enregistrez un message de réussite dans les logs
+            logging.info("Test Selenium réussi")
+
+        except AssertionError as e:
+            # En cas d'échec, enregistrez un message d'erreur dans les logs
+            logging.error("Le test Selenium a échoué : " + str(e))
+
+    def tearDown(self):
+        # Générez un rapport PDF avec les résultats du test
+        c = canvas.Canvas("selenium_test_report.pdf", pagesize=letter)
+        c.drawString(100, 750, "Rapport de test Selenium automatisé")
+        with open('selenium_test.log', 'r') as log_file:
+            log_contents = log_file.read()
+        c.drawString(100, 700, "Logs du test :")
+        c.drawString(100, 680, log_contents)
+        c.save()
+
+        # Fermeture du navigateur Selenium
+        self.driver.quit()
+
+if __name__ == '__main__':
+    unittest.main()
+
+'''
