@@ -18,8 +18,6 @@
 
 - Pour compléter mon parcours, j'ai suivi des formations en Scrum et Agilité, en CSS Grid, en référencement naturel (SEO) et en WordPress. J'ai également obtenu un master en informatique de l'Université de Kairouan en Tunisie, ainsi qu'une licence en informatique et un baccalauréat scientifique spécialité mathématiques.
 
-- En somme, je suis passionné par le monde du test logiciel et de l'automatisation, et je suis constamment à la recherche de nouvelles opportunités pour mettre en pratique mes compétences et contribuer au succès de projets passionnants. Je suis impatient de discuter de la manière dont je peux apporter une valeur ajoutée à votre entreprise. Merci de m'avoir écouté.
-
 ## Pouvez-vous expliquer les différentes phases du processus de test logiciel que vous avez suivies dans vos projets précédents?
 
 Bien sûr, dans mes projets précédents, j'ai suivi des phases telles que la planification, la conception des cas de test, l'exécution des tests, la gestion des anomalies, et la rédaction de rapports de test. La phase de planification implique l'identification des exigences et la création d'un plan de test. La conception des cas de test consiste à établir des scénarios de test détaillés. L'exécution des tests implique la mise en œuvre des cas de test et la collecte de données. La gestion des anomalies consiste à documenter et à suivre les problèmes, tandis que la rédaction de rapports de test implique la communication des résultats.
