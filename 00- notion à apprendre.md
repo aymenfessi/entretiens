@@ -2,4 +2,4 @@
 
 **docker**
 
-**Gherkin ** & **cucumber** & **BDD**
+**Gherkin** & **cucumber** & **BDD**
