@@ -74,7 +74,7 @@
     - "Je valorise la diversité en milieu de travail et je m'assure que chaque personne est traitée avec respect et équité, en favorisant l'inclusion et la collaboration."
 
 26. **Parlez-moi de votre expérience avec les logiciels ou les outils spécifiques à ce poste** :
-    - "J'ai une solide expérience avec [nom des logiciels ou outils spécifiques] et j'ai utilisé ces outils pour [expliquez comment vous les avez utilisés dans le passé]."
+    - "J'ai une solide expérience avec l'outil de gestion des bugs mantis et l'IDE pycharm pour la préparation des scripts d'automatisation des tests et j'ai utilisé ces outils pour optimiser le processus de tests et réduire le risque des bugs surtout pour les scénario des fonctionnalités les plus fréquents."
 
 27. **Comment réagiriez-vous à des changements fréquents dans les priorités du projet** :
     - "Je réagirais en priorisant efficacement, en communiquant régulièrement avec l'équipe et en m'adaptant rapidement aux nouvelles priorités."
