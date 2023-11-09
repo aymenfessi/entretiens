@@ -1,4 +1,5 @@
 Expensya 
+
 Expensya editeur de soclution SAAS pour la gestion des depenses en entreprises avec des cleints en france et a l'internationnale  et rrecemment Expensya a rejoint le groupe Medius spécialiste de AP Automatiuon (automatisation de la gestion des comptes fournisseurs) 
 
 Expensya est une solution de gestion des dépenses d'entreprise qui permet aux entreprises de simplifier, d'automatiser et de contrôler leurs dépenses. La solution est disponible sous forme d'application mobile et de logiciel SaaS.
