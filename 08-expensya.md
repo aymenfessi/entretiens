@@ -56,4 +56,28 @@ Expensya est une solution adaptée aux entreprises de toutes tailles, des PME au
 10. **Question :** Comment gérez-vous la pression lors de périodes de tests intensifs ?
    **Réponse type :** "Je gère la pression en restant organisé, en établissant des priorités claires et en m'assurant de prendre des pauses pour maintenir ma concentration. De plus, je communique ouvertement avec l'équipe pour répartir la charge de travail de manière équilibrée."
 
-Ces réponses types peuvent être adaptées en fonction de tes expériences spécifiques et de tes compétences.
+11. **Question :** Comment assurez-vous la reproductibilité des tests ?
+    **Réponse type :** "Je m'assure que les environnements de test sont bien définis et que les données de test sont cohérentes. En documentant minutieusement les préconditions et les étapes de test, je m'assure que n'importe qui peut reproduire les tests avec succès."
+
+12. **Question :** Comment mesurez-vous l'efficacité de vos tests ?
+    **Réponse type :** "Je mesure l'efficacité des tests en analysant la couverture des tests, le nombre de bugs détectés, leur criticité et le temps nécessaire pour résoudre ces problèmes. Cela me permet d'ajuster mes stratégies de test pour améliorer continuellement la qualité."
+
+13. **Question :** Pouvez-vous décrire une situation où vous avez dû tester une fonctionnalité complexe et comment avez-vous abordé cela ?
+    **Réponse type :** "J'ai eu l'occasion de tester une fonctionnalité complexe qui comportait de multiples dépendances. J'ai commencé par une analyse approfondie des interactions et j'ai élaboré des scénarios de test exhaustifs en me concentrant sur les différentes combinaisons possibles pour assurer une validation complète."
+
+14. **Question :** Comment communiquez-vous efficacement les résultats des tests à l'équipe de développement ?
+    **Réponse type :** "Je documente les résultats de manière claire et structurée, j'identifie les problèmes de manière précise et je les communique immédiatement à l'équipe de développement. Je suis ouvert aux discussions pour clarifier les problèmes et je suis disponible pour aider à résoudre les problèmes identifiés."
+
+15. **Question :** Comment vous tenez-vous au courant des meilleures pratiques et des nouvelles tendances en matière de tests logiciels ?
+    **Réponse type :** "Je participe régulièrement à des conférences, des webinaires et des groupes de discussion sur les tests logiciels. Je lis également des blogs spécialisés et je suis des formations en ligne pour rester informé des dernières tendances et des meilleures pratiques."
+
+16. **Question :** Comment gérez-vous les scénarios de test pour une application mobile et une application web simultanément ?
+    **Réponse type :** "Je m'organise en priorisant les cas de tests spécifiques à chaque plateforme. Je suis attentif aux différences fonctionnelles entre les applications et j'adapte mes scénarios de tests en conséquence pour assurer une couverture complète sur chaque plateforme."
+
+17. **Question :** Comment collaborez-vous avec les équipes de développement pour améliorer la qualité dès les premières étapes du cycle de vie du logiciel ?
+    **Réponse type :** "Je suis impliqué dès le début du processus de développement. En travaillant main dans la main avec les développeurs, je peux aider à identifier et à résoudre les problèmes de qualité avant même qu'ils ne deviennent des bugs, ce qui optimise la qualité du produit final."
+
+18. **Question :** Pouvez-vous expliquer comment vous adaptez vos tests pour des projets utilisant la méthodologie Agile ?
+    **Réponse type :** "Dans un environnement Agile, je suis flexible et je m'adapte aux changements fréquents. Je priorise les tests en fonction des itérations, je favorise une communication étroite avec l'équipe et je m'assure que les tests s'intègrent parfaitement dans le cycle de développement."
+
+Utilise ces réponses comme base pour préparer tes propres expériences et compétences pour l'entretien. Adapter tes réponses à tes expériences spécifiques aidera à présenter tes forces de manière authentique.
