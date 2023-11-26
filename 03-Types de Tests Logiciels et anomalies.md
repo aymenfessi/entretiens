@@ -140,8 +140,7 @@ Lors de la gestion des anomalies identifiées lors des tests logiciels, il est u
 La classification des anomalies permet de prioriser les efforts de correction et d'amélioration du logiciel en fonction de leur impact et de leur importance pour le projet.
 
 
-
-.Le cycle de vie d'une anomalie dans les tests logiciels suit généralement quelques étapes : 
+Le cycle de vie d'une anomalie dans les tests logiciels suit généralement quelques étapes : 
 
 1. **Détection :** L'anomalie est identifiée par les tests, les utilisateurs ou d'autres moyens.
 2. **Enregistrement :** Elle est documentée avec des détails précis sur son comportement incorrect.
@@ -152,3 +151,15 @@ La classification des anomalies permet de prioriser les efforts de correction et
 7. **Clôture :** L'anomalie est fermée dans le système de suivi une fois confirmée comme résolue.
 
 Ce processus peut varier selon les méthodologies de développement et les outils utilisés par l'équipe.
+
+
+
+En effet, les anomalies dans les logiciels peuvent être catégorisées en différents types en fonction de leur nature ou de leur manifestation :
+
+1. **Anomalies textuelles :** Elles impliquent des erreurs dans le texte affiché, comme des fautes d'orthographe, des phrases mal formulées ou des incohérences linguistiques.
+2. **Anomalies graphiques :** Ces erreurs concernent l'apparence visuelle du logiciel, telles que des éléments d'interface déformés, des couleurs incorrectes ou des éléments mal alignés.
+3. **Anomalies logiques :** Elles se rapportent à des erreurs dans le flux ou la logique du programme, comme des calculs incorrects, des conditions mal gérées ou des fonctionnalités qui ne se comportent pas comme prévu.
+4. **Anomalies de performance :** Elles sont liées aux problèmes de vitesse, de mémoire ou de ressources utilisées par le logiciel, conduisant à des ralentissements, des plantages ou une utilisation excessive des ressources.
+5. **Anomalies de sécurité :** Ces erreurs représentent des failles de sécurité, comme des vulnérabilités, des fuites de données ou des autorisations incorrectes.
+
+Ces catégories peuvent parfois se chevaucher, et il est possible d'avoir des anomalies présentant plusieurs de ces caractéristiques en même temps.
