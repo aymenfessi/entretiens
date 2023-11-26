@@ -139,3 +139,16 @@ Lors de la gestion des anomalies identifiées lors des tests logiciels, il est u
 
 La classification des anomalies permet de prioriser les efforts de correction et d'amélioration du logiciel en fonction de leur impact et de leur importance pour le projet.
 
+
+
+.Le cycle de vie d'une anomalie dans les tests logiciels suit généralement quelques étapes : 
+
+1. **Détection :** L'anomalie est identifiée par les tests, les utilisateurs ou d'autres moyens.
+2. **Enregistrement :** Elle est documentée avec des détails précis sur son comportement incorrect.
+3. **Réproduction :** Les testeurs essayent de reproduire l'anomalie pour comprendre ses conditions d'apparition.
+4. **Investigation :** Les développeurs analysent l'anomalie pour en déterminer la cause racine.
+5. **Correction :** Une fois la cause identifiée, les développeurs travaillent à corriger le problème.
+6. **Vérification :** Les tests sont effectués pour s'assurer que la correction a résolu l'anomalie.
+7. **Clôture :** L'anomalie est fermée dans le système de suivi une fois confirmée comme résolue.
+
+Ce processus peut varier selon les méthodologies de développement et les outils utilisés par l'équipe.
